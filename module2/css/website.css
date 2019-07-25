@@ -41,7 +41,7 @@ body{
 
 /*colours*/
 #item1{
-background-color: orange;
+background-color: lightgreen;
 }
 
 #item1-header{
@@ -58,8 +58,7 @@ background-color: lightgreen;
 }
 
 #item3{
-background-color: grey;
-color: white;
+background-color: lightgreen;
 }
 #item3-header{
     background-color:saddlebrown;
