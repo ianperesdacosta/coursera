@@ -1,0 +1,275 @@
+/* border box applied to each element on the html page using * selector */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*small responsive grid*/
+
+.row{
+    width: 100%;
+}
+
+.page-header{
+    text-align: center;
+    font-size: 175%;
+    margin: 3% 0px 3% 0px;
+}
+
+.block-container{
+    display: block;
+    margin: 0 auto;
+}
+
+.item-header{
+    padding: 3px 30px 3px 30px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    right: 0%
+}
+
+.item-body{
+    /* clear: right; */
+    padding: 30px 15px 10px 15px; 
+}
+
+/*colours*/
+#item1{
+background-color: orange;
+}
+
+#item1-header{
+    background-color:black;
+    color: white;
+}
+
+#item2{
+background-color: lightgreen;
+}
+#item2-header{
+    background-color: purple;
+    color: white;
+}
+
+#item3{
+background-color: grey;
+color: white;
+}
+#item3-header{
+    background-color:saddlebrown;
+    color: white;
+}
+
+.block-item{
+    border: 1px solid black;
+    position: relative;
+}
+
+@media (min-width:992px){
+
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12{
+        float: left;
+    }
+
+    .col-lg-1{
+        width: 8.33%
+    }
+    .col-lg-2{
+        width: 16.66%
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 42%
+    }
+    .col-lg-6{
+        width: 50%
+    }
+    .col-lg-7{
+        width: 58%
+    }
+    .col-lg-8{
+        width: 67%
+    }
+    .col-lg-9{
+        width: 75%
+    }
+    .col-lg-10{
+        width: 83.3%
+    }
+    .col-lg-11{
+        width: 92%
+    }
+    .col-lg-12{
+        width: 100%
+    }
+
+    .item-1-margin-lg{
+        margin: 1% 2.5% 1% 2.5%;
+    }
+
+    .item-2-margin-lg{
+        margin: 1% 2.5% 1% 2.5%;
+    }
+
+    .item-3-margin-lg{
+        margin: 1% 2.5% 1% 2.5%;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12{
+        float: left;
+    }
+
+    .col-md-1{
+        width: 8.33%
+    }
+    .col-md-2{
+        width: 16.66%
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 42%
+    }
+    .col-md-6{
+        width: 50%
+    }
+    .col-md-7{
+        width: 58%
+    }
+    .col-md-8{
+        width: 67%
+    }
+    .col-md-9{
+        width: 75%
+    }
+    .col-md-10{
+        width: 83.3%
+    }
+    .col-md-11{
+        width: 92%
+    }
+    .col-md-12{
+        width: 100%
+    }
+
+    .item-1-margin-md{
+        margin: 1% 2.5% 1% 2%;
+    }
+
+    .item-2-margin-md{
+        margin: 1% 2% 1% 2.5%;
+    }
+
+    .item-3-margin-md{
+        margin: 2% 1% 1% 1%;
+    }
+}
+
+@media (max-width:767px){
+
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12{
+        float: left;
+    }
+
+    .col-sm-1{
+        width: 8.33%
+    }
+    .col-sm-2{
+        width: 16.66%
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 42%
+    }
+    .col-sm-6{
+        width: 50%
+    }
+    .col-sm-7{
+        width: 58%
+    }
+    .col-sm-8{
+        width: 67%
+    }
+    .col-sm-9{
+        width: 75%
+    }
+    .col-sm-10{
+        width: 83.3%
+    }
+    .col-sm-11{
+        width: 92%
+    }
+    .col-sm-12{
+        width: 100%
+    }
+
+    .item-1-margin-sm{
+        margin: 1% 1% 1% 2%;
+    }
+
+    .item-2-margin-sm{
+        margin: 1% 1% 1% 2%;
+    }
+
+    .item-3-margin-sm{
+        margin: 1% 1% 1% 2%;
+    }
+}
+
