@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+#page-content{
+    background-color: burlywood;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid brown;
+}
+
+#page-title{
+    margin-bottom: 5%;
+}
+
+@media (max-width:768px)
+{
+    #page-title{
+        margin-bottom: 2%;
+    }
+
+    #menuItems{
+        background-color: brown;
+    }
+
+    #menuItems .navbar-nav>li>a{
+        color:white;
+        text-align: center;
+    }
+    
+    #menuItems .navbar-nav>li:nth-child(3){
+        border-bottom: none;
+    }
+    
+    #menuItems .navbar-nav>li{
+        border-bottom: 1px solid white;
+    }
+
+    .container{
+       margin-top: 10%;
+       margin-left: 15%;
+       margin-right: 15%;
+       margin-bottom: 10%;
+    }
+}
+
